@@ -20,7 +20,7 @@ In your the root of your angular app, typically `app.module.ts`:
 
 ```typescript
 // Import bugsnag-js and bugsnag-angular
-import BugsnagErrorHandler from 'bugsnag-angular'
+import BugsnagErrorHandler from '@bugsnag/plugin-angular';
 import bugsnag from 'bugsnag-js'
 
 // configure Bugsnag ASAP, before any other imports
